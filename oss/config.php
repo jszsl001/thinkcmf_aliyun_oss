@@ -50,7 +50,7 @@ return [
         "message" => [
             "require" => '空间域名不能为空'
         ],
-        'tip'     => ''
+        'tip'     => '阿里云后台查看, 例如 oss-cn-beijing.aliyuncs.com'
     ],
     'bucket'                    => [
         'title'   => '空间名称',
@@ -62,7 +62,7 @@ return [
         "message" => [
             "require" => '空间名称不能为空'
         ],
-        'tip'     => ''
+        'tip'     => '阿里云后台创建的Bucket名称'
     ],
     'style_separator'           => [
         'title'   => '样式分隔符',
