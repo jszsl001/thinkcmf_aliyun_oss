@@ -1,37 +1,36 @@
-# thinkcmf5_aliyun_oss
+# thinkcmf5 阿里云OSS存储插件
 
 #### 介绍
-thinkcmf5 阿里云OSS存储插件
-
-#### 软件架构
-软件架构说明
-
+参考七牛云存储插件 实现的thinkcmf5的阿里云OSS存储插件,实现了最基础的同步上传到阿里云oss功能
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 开通阿里云OSS存储服务 https://www.aliyun.com/product/oss
 
-#### 使用说明
+2. 项目安装oss存储SDK包  https://help.aliyun.com/document_detail/85580.html
 
-1. xxxx
-2. xxxx
-3. xxxx
+3. 下载本插件包,oss文件夹放在项目public/plugins目录下
 
-#### 参与贡献
+4. 项目管理后台 - 插件中心 - 插件列表 安装OSS上传插件,安装完毕后进行相应设置
 
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+5. 项目管理后台 - 设置 - 文件存储 存储类型选择为阿里云OSS
+
+6. 安装完毕,上传附件的同时也会上传到阿里云OSS外部存储
 
 
-#### 码云特技
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+#### 使用composer安装oss存储SDK
+
+1. 修改thinkcmf5项目目录composer.json文件
+`require` 块下增加
+`"aliyuncs/oss-sdk-php": "~2.3.0"`
+```
+"require": {
+    "aliyuncs/oss-sdk-php": "~2.3.0"
+ }
+ ```
+
+2. 执行`composer update`
+
+3.安装完毕

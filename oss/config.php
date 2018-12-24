@@ -67,7 +67,7 @@ return [
     'style_separator'           => [
         'title'   => '样式分隔符',
         'type'    => 'text',
-        'value'   => '!',
+        'value'   => '?',
 //        "rule"    => [
 //            "require" => true
 //        ],
