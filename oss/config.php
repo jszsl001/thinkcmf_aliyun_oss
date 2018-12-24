@@ -41,16 +41,16 @@ return [
         'tip'     => ''
     ],
     'domain'                    => [
-        'title'   => '空间域名',
+        'title'   => '访问域名 （ Bucket 域名 ）',
         'type'    => 'text',
         'value'   => '',
         "rule"    => [
             "require" => true
         ],
         "message" => [
-            "require" => '空间域名不能为空'
+            "require" => '访问域名不能为空'
         ],
-        'tip'     => '阿里云后台查看, 例如 oss-cn-beijing.aliyuncs.com'
+        'tip'     => '阿里云后台查看 Bucket 域名, 例如 aaa-test.oss-cn-beijing.aliyuncs.com'
     ],
     'bucket'                    => [
         'title'   => '空间名称',
