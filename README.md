@@ -24,15 +24,6 @@
 
 #### 使用composer安装oss存储SDK
 
-1. 修改thinkcmf5项目目录composer.json文件
-`require` 块下增加
-`"aliyuncs/oss-sdk-php": "~2.3.0"`
-```
-"require": {
-    "aliyuncs/oss-sdk-php": "~2.3.0"
- }
- ```
+1. 执行`composer require "aliyuncs/oss-sdk-php:~2.3.0"`
 
-2. 执行`composer update`
-
-3.安装完毕
+2.安装完毕
