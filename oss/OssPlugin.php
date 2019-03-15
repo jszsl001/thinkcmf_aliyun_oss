@@ -10,7 +10,7 @@ class OssPlugin extends Plugin{
         'title'       => 'OSS上传',
         'description' => 'OSS上传',
         'status'      => 1,
-        'author'      => 'zsl<jszsl001@163.com>',
+        'author'      => 'zsl',
         'version'     => '1.0.0'
     ];
 
