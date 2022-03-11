@@ -1,4 +1,4 @@
-# thinkcmf5 阿里云OSS存储插件
+# thinkcmf5(兼容thinkcmf6) 阿里云OSS存储插件 [v1.0.1]
 
 #### 介绍
 参考七牛云存储插件 实现的thinkcmf5的阿里云OSS存储插件,实现了最基础的同步上传到阿里云oss功能
