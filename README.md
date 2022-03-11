@@ -24,6 +24,6 @@
 
 #### 使用composer安装oss存储SDK
 
-1. 执行`composer require "aliyuncs/oss-sdk-php:~2.3.0"`
+1. 执行`composer require "aliyuncs/oss-sdk-php:~2.4"`
 
 2.安装完毕

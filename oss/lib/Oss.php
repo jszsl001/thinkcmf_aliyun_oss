@@ -43,7 +43,7 @@ class Oss
     {
         $accessKeyId = $this->config['accessKey'];
         $accessKeySecret = $this->config['secretKey'];
-        $endpoint = 'http://oss-cn-beijing.aliyuncs.com';
+        $endpoint = $this->config['endpoint'];
         $bucket = $this->config['bucket'];
 
         // 文件名称
